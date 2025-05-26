@@ -23,7 +23,7 @@ export default function Resume() {
             location="Kathmandu, Nepal"
           />
           <EducationItem
-            year="2018 - 2022"
+            year="2015 - 2020"
             degree="BSc in Environmental Science"
             location="Patan Multiple Campus"
           />
