@@ -22,8 +22,8 @@ const Footer = () => {
           <a
             href={
               isMobile
-                ? "instagram://user?username=your_username"
-                : "https://www.instagram.com/your_username"
+                ? "instagram:user?username=manish_chettri55"
+                : "https://www.instagram.com/manish_chettri55"
             }
             target="_blank"
             rel="noopener noreferrer"
@@ -33,8 +33,8 @@ const Footer = () => {
           <a
             href={
               isMobile
-                ? "fb://profile/your_profile_id"
-                : "https://www.facebook.com/your_profile"
+                ? "fb://profile/manish59gc"
+                : "https://www.facebook.com/manish59gc"
             }
             target="_blank"
             rel="noopener noreferrer"
@@ -44,8 +44,8 @@ const Footer = () => {
           <a
             href={
               isMobile
-                ? "linkedin://profile/your_profile_id"
-                : "https://www.linkedin.com/in/your_profile"
+                ? "linkedin://profile/mr-manish-godar-323371244"
+                : "https://www.linkedin.com/in/mr-manish-godar-323371244/"
             }
             target="_blank"
             rel="noopener noreferrer"
