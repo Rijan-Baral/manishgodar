@@ -22,7 +22,7 @@ const Footer = () => {
           <a
             href={
               isMobile
-                ? "instagram:user?username=manish_chettri55"
+                ? "instagram://user?username=manish_chettri55"
                 : "https://www.instagram.com/manish_chettri55"
             }
             target="_blank"
