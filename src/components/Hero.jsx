@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import gsap from "gsap";
-import photo from "../assets/photos/photo.png";
+import photo from "../assets/photos/photo.jpg";
 import Button from "./Button";
 import { photos } from "./Photos";
 import Span from "./Span";

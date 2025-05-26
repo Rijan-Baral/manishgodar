@@ -22,6 +22,10 @@ import photo21 from "../assets/sitepics/Sunkoshi marine diversion/2.jpg";
 import photo22 from "../assets/sitepics/Sunkoshi marine diversion/3.jpg";
 import photo23 from "../assets/sitepics/Sunkoshi marine diversion/5.jpg";
 import photo24 from "../assets/sitepics/Sunkoshi marine diversion/7.jpg";
+import photo25 from "../assets/sitepics/kathmandu valley/1.jpg";
+import photo26 from "../assets/sitepics/kathmandu valley/2.jpg";
+import photo27 from "../assets/sitepics/kathmandu valley/3.jpg";
+import photo28 from "../assets/sitepics/kathmandu valley/4.jpg";
 
 export const projects = [
   {
@@ -127,5 +131,24 @@ export const projects = [
         The study emphasized odor control, efficient sludge management, and eco-friendly design practices to meet growing urban sanitation demands.
       </p>
     `,
+  },
+  {
+    id: "kathmandu-valley",
+    name: "Kathmandu Valley Village Ringroad",
+    work: "IEE Study",
+    photos: [photo27, photo26, photo25, photo28],
+    description: `
+  <span class="block text-2xl md:text-3xl font-extrabold mb-4">🚰Kathmandu Valley Village Ringroad</span>
+  <span class="text-lg font-semibold block mb-1">Work:</span>
+  <span class="text-base md:text-lg mb-3 block">IEE Study</span>
+
+  <span class="text-lg font-semibold block mb-1 mt-4">Description:</span>
+  <p class="text-base md:text-lg leading-relaxed text-justify">
+    An Initial Environmental Examination (IEE) was carried out for the proposed Kathmandu Valley Village Ringroad project. 
+    Key areas of focus included land use, community displacement risks, air and noise pollution, and impacts on local ecosystems. 
+    The findings and recommendations from the study will help ensure that the project proceeds in an environmentally responsible and sustainable manner.
+     
+  </p>
+`,
   },
 ];

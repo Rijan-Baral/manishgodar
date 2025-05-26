@@ -1,37 +1,3 @@
-// import React from "react";
-// import Line from "./Line";
-// import { AboutMePics } from "./AboutMePics";
-
-// {
-//   /* md:block lg:block (helps Tailwind register it) */
-// }
-
-// const Details = ({ num, photo, me, title, details, type }) => {
-//   const flexClass =
-//     type === "flex-row-reverse" ? "md:flex-row-reverse" : "md:flex-row";
-//   return (
-//     <div
-//       className={`flex flex-row ${flexClass} justify-around relative px-5 sm:px-8 lg:px-15 mt-6 md:mt-12 mb-15`}
-//     >
-//       <AboutMePics sm="hidden" md="block" photo={photo} />
-//       <Line sm="hidden" lg="md:block" num={num} />
-//       <div
-//         className={`md:w-[45%] lg:w-[50%] flex ${type} justify-center gap-5`}
-//       >
-//         <div className="flex flex-col">
-//           <p className="font-pop font-medium">{me}</p>
-//           <h1 className="font-pop font-bold text-3xl">{title}</h1>
-//           <p className="w-full md:w-80 lg:w-100 font-roboto mt-4 lg:mt-6 lg:text-[16px] text-justify">
-//             {details}
-//           </p>
-//         </div>
-//         <Line lg="md:hidden" num={num} />
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default Details;
 import React, { useEffect, useRef } from "react";
 import { AboutMePics } from "./AboutMePics";
 import gsap from "gsap";
